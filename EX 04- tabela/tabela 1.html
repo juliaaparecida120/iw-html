@@ -1,0 +1,85 @@
+<html>
+<head>
+    <title>tabela 1</title>
+    <style>
+body {
+    font-style: 500px;
+}
+table{
+    width: 500px;
+    border: 1px solid bisque;
+    border-collapse: collapse;
+}
+td, th{
+    border: 1px solid burlywood;
+    padding: 10px;
+}
+caption{
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: aliceblue;
+
+}
+thead, tfoot{
+    background-color: rgb(189, 119, 196);
+    color: blueviolet;
+
+}
+tbody > tr:nth-child(odd){
+    background-color: darkseagreen;
+}
+tbody > tr:nth-child(even){
+    background-color: beige;
+}
+td.num{`
+text-align: right;}
+img{
+    display: flex;
+    justify-content: center;
+}
+    </style>
+</head>
+
+<body>
+    <h1> ESTRUTURA DE TABELAS GRANDES</h1>
+    <table>
+        <caption>COMIDAS TIPICAS DE CADA REGIAO DO BRASIL</caption>
+         
+        <thead>
+            <tr> 
+                <th>REGIAO</th>
+                <th style="weidth: 350px|">COMIDA</th>
+            </tr>
+        </thead>
+        <tr>
+            <td> SUDESTE</td>
+            <td class="num"> cuzcuz paulista</td>
+        </tr>
+        <tr>
+            <td> NORDESTE</td>
+            <td> acarajé </td>
+
+        </tr>
+        <tr>
+            <td> NORTE</td>
+            <td> tacacá </td>
+
+        </tr>
+        <tr>
+            <td> CENTRO-OESTE</td>
+            <td> pamonha </td>
+
+        </tr>
+        <tr>
+            <td> SUL</td>
+            <td> churrasco gaúcho </td>
+
+        </tr>
+        
+
+        
+    </table>
+    
+</body>
+</html>
