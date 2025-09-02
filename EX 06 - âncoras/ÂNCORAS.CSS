@@ -1,0 +1,22 @@
+*{
+    font-family: 'segue UI', tohoma , geneva, verdana, sans-serif
+
+}
+h1{
+    color: #1c2b67;
+}
+h2{
+    color: #365d86;
+}
+
+h3{
+    color: #5893a4;
+}
+
+h4{
+    color: #808080;
+}
+p{
+    text-align: justify;
+    text-indent: 2cm;
+}
